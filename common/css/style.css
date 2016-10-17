@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #e7e7e7;
+}
+
+.scroll{
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100px;
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+	text-align: right;
+	background-color: #000;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #66dafe;
+	margin-bottom: 50px;
+}
+
+main h1{
+	font-size: 10vh;
+	font-family: sans-serif;
+}
+
+#fadein{
+	margin-left: -20px;
+	width: 850px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.fadein_items{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.fadein_items img{
+	vertical-align: bottom;
+}
